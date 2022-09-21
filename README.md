@@ -25,3 +25,12 @@ null.
 
 So if you want to use Log.ForContext<Program> you have to explicitly define a Program class with a Main method as is
 done in this example.
+
+4. When running in Rider, if (like me) you don't use the launchSettings.json profile file (in Properties) the
+   ASPNETCORE_ENVIRONMENT variable will not be set. That means appSettings.Development.json will not be read and
+   Serilog will not be configured as expected. To fix it, in the Rider .NET Project Configuration add an environment
+   variable like this:
+
+```
+ASPNETCORE_ENVIRONMENT=Development
+```
