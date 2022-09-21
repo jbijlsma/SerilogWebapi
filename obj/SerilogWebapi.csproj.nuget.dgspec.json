@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jbijlsma/Develop/Projects/SerilogWebapi/SerilogWebapi.csproj": {}
+  },
+  "projects": {
+    "/Users/jbijlsma/Develop/Projects/SerilogWebapi/SerilogWebapi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jbijlsma/Develop/Projects/SerilogWebapi/SerilogWebapi.csproj",
+        "projectName": "SerilogWebapi",
+        "projectPath": "/Users/jbijlsma/Develop/Projects/SerilogWebapi/SerilogWebapi.csproj",
+        "packagesPath": "/Users/jbijlsma/.nuget/packages/",
+        "outputPath": "/Users/jbijlsma/Develop/Projects/SerilogWebapi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jbijlsma/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "JetBrains.Annotations": {
+              "target": "Package",
+              "version": "[2022.1.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
